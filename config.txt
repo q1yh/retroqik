@@ -1,0 +1,4 @@
+SHORTCUT_APP_TEMPLATE_DIR=/Template
+ANDROID_SDK_DIR=
+ANDROID_RETROARCH_DIR=/data/data/com.retroarch/
+LIBRETRO_DICT={"nes":"cores/fceumm_libretro_android.so","n64":"cores/parallel_n64_libretro_android.so","arcade":"cores/mame2014_libretro_android.so","segamd":"cores/genesis_plus_gx_libretro_android.so"}
