@@ -1,0 +1,4 @@
+storeFile file("keys.txt")
+storePassword "P@55word"
+keyAlias "@ndroid"
+keyPassword "Purple"
