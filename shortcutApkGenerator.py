@@ -69,13 +69,9 @@ def compile_app(packageName,requestID):
         print fin.read()
     # Is it good? Let's assume so
     os.chdir('temp_apk/');
-    if len(sys.argv) > 2 and sys.argv[2] == '--windows':
-        os.system('gradlew clean --info')
-        os.system('gradlew assembleRelease')
-    else:
-        call(['./gradlew', 'clean'])
-        call(['./gradlew', 'assembleRelease'])
-        
+    call(['./gradlew', 'clean'])
+    call(['./gradlew', 'assembleRelease'])
+
     os.chdir('../');
     upload_apk(packageName)
     
