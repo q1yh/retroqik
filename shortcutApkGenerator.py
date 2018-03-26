@@ -24,6 +24,7 @@ def get_configs(requestID):
     return [srcDir,wrkDir,sdkDir,retroDir,libretroDict]
 
 def write_keys():
+    #TODO
     print 'Using production keys'
     keys = open('keys.txt', 'r')
     replace('./temp_apk/app/build.gradle', 
